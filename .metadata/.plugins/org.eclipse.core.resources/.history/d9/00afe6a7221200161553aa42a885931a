@@ -1,0 +1,57 @@
+package com.mcnz.rps;
+import javax.swing.JOptionPane;
+
+public class Game {
+
+	public static void main(String[] args) {
+
+		String result;
+		String prompt = "Will it be rock, paper or scissors?";
+		String input = "";
+		
+		Score theScore = new Score();
+		java.util.ArrayList history = new java.util.ArrayList();
+
+		while (!input.equals("q")) {
+			result = "error";
+			input = JOptionPane.showInputDialog(prompt);
+			if (input.equals("q")){
+				break;
+			}
+			if (input.equalsIgnoreCase("scissors")) {
+				result = "lose";
+				theScore.increaseLosses();
+			}
+
+			if (input.equalsIgnoreCase("paper")) {
+				result = "win";
+				theScore.increaseWins();
+			}
+
+			if (input.equalsIgnoreCase("rock")) {
+				result = "tie";
+				theScore.increaseTies();
+			}
+			
+			GameSummary summary = new GameSummary(input, "rock", result);
+			history.add(summary);
+			
+			
+			JOptionPane.showMessageDialog(null, result);
+			System.out.println(theScore.toString());
+			System.out.println("Number of wins: " + theScore.getWins());
+		}
+		JOptionPane.showMessageDialog(null, "Have a nice day!");
+	}
+	
+	public static void  displayGameHistory(java.util.ArrayList gameHistory){
+		for (int i=0; i < gameHistory.size(); i++){
+			GameSummary gs = (GameSummary)gameHistory.get(i);
+		}
+	}
+	
+	
+	
+	
+	
+}

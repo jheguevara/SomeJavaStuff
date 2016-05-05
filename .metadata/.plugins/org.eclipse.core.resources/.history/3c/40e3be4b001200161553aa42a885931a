@@ -1,0 +1,25 @@
+package com.mcnz.bank;
+
+public class AccountList {
+	
+	int numberOfAccounts = 2;
+	Account accountA;
+	Account accountB;
+	
+	public int getNumberOfAccounts() {
+		return numberOfAccounts;
+	}
+	public void addAccountA(Account accountA) {
+		this.accountA = accountA;
+	}
+	public void addAccountB(Account accountB) {
+		this.accountB = accountB;
+	}
+	
+	public double calcAverageBalance() {
+		double totalBalance = accountA.getBalance() + accountB.getBalance();
+		double averageBalance = totalBalance/getNumberOfAccounts();
+	}
+	
+
+}

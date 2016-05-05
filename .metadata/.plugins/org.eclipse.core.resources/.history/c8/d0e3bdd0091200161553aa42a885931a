@@ -1,0 +1,24 @@
+package com.mcnz.shape;
+
+public class Line {
+	
+	Point startPoint;
+	Point endPoint;
+	
+	//int startX;
+	//int startY;
+	//int endX;
+	//int endY;
+	
+	public double getLength() {
+		double length = 0;
+		int deltaX = startPoint.x - endPoint.x;
+		
+	}
+	
+	
+	public int calcArea() {
+		return 0;
+	}
+
+}

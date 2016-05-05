@@ -1,0 +1,18 @@
+package com.mcnz.bank;
+
+public class Account {
+	
+	int accountNumber;
+	java.util.Date createDate;
+	double balance;
+	
+	public void withdraw(double amount){
+		balance = balance-amount;
+		
+	}
+	
+	public void deposit(double amount) {
+		balance = balacne + amount;
+	}
+
+}

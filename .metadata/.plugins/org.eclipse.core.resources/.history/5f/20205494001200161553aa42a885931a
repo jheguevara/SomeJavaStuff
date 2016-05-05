@@ -1,0 +1,15 @@
+package com.mcnz.bank;
+
+public class TestAccountBalance {
+
+	public static void main(String[] args) {
+		Account a = new Account();
+		a.setBalance(100);
+		Account b = new Account();
+		b.setBalance(300);
+		
+		
+
+	}
+
+}

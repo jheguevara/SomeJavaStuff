@@ -1,0 +1,12 @@
+package com.mcnz.shape;
+
+public class Line {
+	
+	Point startPoint;
+	Point endPoint;
+	
+	public int calcArea() {
+		return 0;
+	}
+
+}

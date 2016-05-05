@@ -1,0 +1,10 @@
+package com.mcnz.shape;
+
+public class Point {
+	
+	
+	public int calcArea() {
+		return 0;
+	}
+
+}

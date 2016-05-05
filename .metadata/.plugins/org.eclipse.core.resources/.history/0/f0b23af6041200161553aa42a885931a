@@ -1,0 +1,7 @@
+package com.mcnz.shape;
+
+public class Square extends java.lang.Object {
+	
+	int side;
+
+}

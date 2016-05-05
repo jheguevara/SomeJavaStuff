@@ -1,0 +1,10 @@
+package com.mcnz.rps;
+
+public class GameSummary {
+	
+	String clientGesture;
+	String serverGesture;
+	String result;
+	java.util.Date date;;
+
+}

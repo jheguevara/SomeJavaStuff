@@ -1,0 +1,11 @@
+package com.mcnz.shape;
+
+public class Line {
+	
+	
+	
+	public int calcArea() {
+		return 0;
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.mcnz.rps;
+
+public class GameSnippets {
+
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

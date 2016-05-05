@@ -1,0 +1,30 @@
+import javax.swing.JOptionPane;
+
+public class Game {
+
+	public static void main(String[] args) {
+
+		String result = "error";
+		String prompt = "Will it be rock, paper or scissors?";
+		String input = "";
+		
+		Score theScore = new Score();
+
+		while (!input.equals("q")) {
+			input = JOptionPane.showInputDialog(prompt);
+			if (input.equalsIgnoreCase("scissors")) {
+				result = "lose";
+				losses++;
+			}
+
+			if (input.equalsIgnoreCase("paper")) {
+				result = "win";
+			}
+
+			if (input.equalsIgnoreCase("rock")) {
+				result = "tie";
+			}
+			JOptionPane.showMessageDialog(null, result);
+		}
+	}
+}

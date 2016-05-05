@@ -1,0 +1,11 @@
+package com.mcnz.shape;
+
+public class Circle {
+	
+	int radius;
+	
+	public double calcArea() {
+		return Math.PI * radius * radius;
+	}
+
+}

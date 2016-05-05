@@ -1,0 +1,9 @@
+package com.mcnz.bank;
+
+public class AccountList {
+	
+	int numberOfAccounts = 2;
+	Account accountA;
+	Account accountB;
+
+}

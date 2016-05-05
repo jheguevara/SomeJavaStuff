@@ -1,0 +1,26 @@
+package com.mcnz.rps;
+
+public class SolveQuadratic {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		a = 1;
+		b = 2;
+		c = 3;
+		
+		
+		double minusBee = -b;
+		double beeSquared = Math.pow(b,2);
+		double fourEhSea = 4*a*c;
+		double twoEh = 2*a;
+		
+		double toBeRooted = beeSquared - fourEhSea;
+		
+		double rootedPart = Math.pow(bee, b)
+		
+	}
+
+}

@@ -1,0 +1,139 @@
+!SESSION 2016-05-02 13:49:26.047 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-05 15:18:40.430
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:18:40.430
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:18:40.430
+!MESSAGE Software being installed: Eclipse Git Team Provider 4.3.0.201604071810-r (org.eclipse.egit.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:18:40.430
+!MESSAGE Missing requirement: Git Team Provider UI 4.3.0.201604071810-r (org.eclipse.egit.ui 4.3.0.201604071810-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:18:40.430
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:18:40.430
+!MESSAGE From: Eclipse Git Team Provider 4.3.0.201604071810-r (org.eclipse.egit.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:18:40.430
+!MESSAGE To: org.eclipse.egit.ui [4.3.0.201604071810-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-05 15:18:40.430
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:18:40.430
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:18:40.430
+!MESSAGE Software being installed: Eclipse Git Team Provider 4.3.0.201604071810-r (org.eclipse.egit.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:18:40.430
+!MESSAGE Missing requirement: Git Team Provider UI 4.3.0.201604071810-r (org.eclipse.egit.ui 4.3.0.201604071810-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:18:40.430
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:18:40.430
+!MESSAGE From: Eclipse Git Team Provider 4.3.0.201604071810-r (org.eclipse.egit.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:18:40.430
+!MESSAGE To: org.eclipse.egit.ui [4.3.0.201604071810-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-05 15:19:06.357
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:19:06.357
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:06.357
+!MESSAGE Software being installed: Eclipse Git Team Provider 4.3.0.201604071810-r (org.eclipse.egit.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:06.357
+!MESSAGE Missing requirement: Git Team Provider UI 4.3.0.201604071810-r (org.eclipse.egit.ui 4.3.0.201604071810-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:19:06.357
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:06.357
+!MESSAGE From: Eclipse Git Team Provider 4.3.0.201604071810-r (org.eclipse.egit.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:06.357
+!MESSAGE To: org.eclipse.egit.ui [4.3.0.201604071810-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-05 15:19:06.357
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:19:06.357
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:06.357
+!MESSAGE Software being installed: Eclipse Git Team Provider 4.3.0.201604071810-r (org.eclipse.egit.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:06.357
+!MESSAGE Missing requirement: Git Team Provider UI 4.3.0.201604071810-r (org.eclipse.egit.ui 4.3.0.201604071810-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:19:06.357
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:06.357
+!MESSAGE From: Eclipse Git Team Provider 4.3.0.201604071810-r (org.eclipse.egit.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:06.357
+!MESSAGE To: org.eclipse.egit.ui [4.3.0.201604071810-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-05 15:19:16.466
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:19:16.466
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:16.466
+!MESSAGE Software being installed: Command Line Interface for Java implementation of Git 4.3.0.201604071810-r (org.eclipse.jgit.pgm.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:16.466
+!MESSAGE Missing requirement: JGit Large File Storage Server 4.3.0.201604071810-r (org.eclipse.jgit.lfs.server 4.3.0.201604071810-r) requires 'package javax.servlet [3.1.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:19:16.466
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:16.466
+!MESSAGE From: Java implementation of Git - optional LFS support 4.3.0.201604071810-r (org.eclipse.jgit.lfs.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:16.466
+!MESSAGE To: org.eclipse.jgit.lfs.server [4.3.0.201604071810-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:19:16.466
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:16.466
+!MESSAGE From: Command Line Interface for Java implementation of Git 4.3.0.201604071810-r (org.eclipse.jgit.pgm.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:16.466
+!MESSAGE To: org.eclipse.jgit.lfs.feature.group [4.3.0.201604071810-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-05 15:19:16.481
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:19:16.481
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:16.481
+!MESSAGE Software being installed: Command Line Interface for Java implementation of Git 4.3.0.201604071810-r (org.eclipse.jgit.pgm.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:16.481
+!MESSAGE Missing requirement: JGit Large File Storage Server 4.3.0.201604071810-r (org.eclipse.jgit.lfs.server 4.3.0.201604071810-r) requires 'package javax.servlet [3.1.0,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:19:16.481
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:16.481
+!MESSAGE From: Java implementation of Git - optional LFS support 4.3.0.201604071810-r (org.eclipse.jgit.lfs.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:16.481
+!MESSAGE To: org.eclipse.jgit.lfs.server [4.3.0.201604071810-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:19:16.481
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:16.481
+!MESSAGE From: Command Line Interface for Java implementation of Git 4.3.0.201604071810-r (org.eclipse.jgit.pgm.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:19:16.481
+!MESSAGE To: org.eclipse.jgit.lfs.feature.group [4.3.0.201604071810-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-05 15:20:10.629
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:20:10.629
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:20:10.629
+!MESSAGE Software being installed: Eclipse Git Team Provider 4.3.0.201604071810-r (org.eclipse.egit.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:20:10.629
+!MESSAGE Missing requirement: Git Team Provider UI 4.3.0.201604071810-r (org.eclipse.egit.ui 4.3.0.201604071810-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:20:10.629
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:20:10.629
+!MESSAGE From: Eclipse Git Team Provider 4.3.0.201604071810-r (org.eclipse.egit.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:20:10.629
+!MESSAGE To: org.eclipse.egit.ui [4.3.0.201604071810-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-05-05 15:20:10.629
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:20:10.629
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:20:10.629
+!MESSAGE Software being installed: Eclipse Git Team Provider 4.3.0.201604071810-r (org.eclipse.egit.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:20:10.629
+!MESSAGE Missing requirement: Git Team Provider UI 4.3.0.201604071810-r (org.eclipse.egit.ui 4.3.0.201604071810-r) requires 'bundle org.eclipse.team.core [3.6.100,4.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-05-05 15:20:10.629
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:20:10.629
+!MESSAGE From: Eclipse Git Team Provider 4.3.0.201604071810-r (org.eclipse.egit.feature.group 4.3.0.201604071810-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-05-05 15:20:10.629
+!MESSAGE To: org.eclipse.egit.ui [4.3.0.201604071810-r]

@@ -1,0 +1,27 @@
+package com.mcnz.shape;
+
+public class ShapeTester {
+
+
+	public static void main(String[] args) {
+		
+		Circle circle = new Circle();
+		circle.radius = 5;
+		System.out.println(circle.calcArea());
+		
+		Rectangle r1 = new Rectangle();
+		r1.height = 10;
+		r1.width = 4;
+		System.out.println(r1.calcArea());
+		
+		Triangle t1 = new Triangle();
+		t1.height=20;
+		t1.width = 4;
+		
+		System.out.println();
+		System.out.println();
+
+
+	}
+
+}

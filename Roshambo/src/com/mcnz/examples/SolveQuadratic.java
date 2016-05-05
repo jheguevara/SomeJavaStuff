@@ -1,0 +1,31 @@
+package com.mcnz.examples;
+
+public class SolveQuadratic {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		double a = 1;
+		double b = 3.5;
+		double c = 1;
+		
+		
+		double minusBee = -b;
+		double beeSquared = Math.pow(b,2);
+		double fourEhSea = 4*a*c;
+		double twoEh = 2*a;
+		
+		double toBeRooted = beeSquared - fourEhSea;
+		
+		double rootedPart = Math.sqrt(toBeRooted);
+		
+		double solutionOne = (minusBee + rootedPart) / twoEh;
+		double solutionTwo = (minusBee - rootedPart) /twoEh;
+		
+		System.out.println(solutionOne + " :: " + solutionTwo);
+		
+	}
+
+}

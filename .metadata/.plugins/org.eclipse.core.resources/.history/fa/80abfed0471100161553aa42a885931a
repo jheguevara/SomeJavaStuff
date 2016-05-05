@@ -1,0 +1,21 @@
+package com.mcnz.rps;
+
+public class MoMethods {
+
+
+	public static void main(String[] args) {
+
+
+	}
+	
+	
+	public static void longestYarn(String one, String two) {
+		String longest = two;
+		if ( one.length() > two.length() ){
+			longest = one;
+		}
+		System.out.println(longest);
+	}
+	
+
+}

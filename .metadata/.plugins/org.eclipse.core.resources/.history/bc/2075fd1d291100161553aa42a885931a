@@ -1,0 +1,33 @@
+package part6;
+
+public class ReinforceIt
+{
+	public static void Main(String args)
+	{
+		String firstArg = "123";
+		String secondArg = "456";
+		
+		String thirdArg = "3.45";
+		String fourthArg = "4.55";
+		
+		int firstInt = firstArg;
+		int secondInt = secondArg;
+		
+		double firstDouble = thirdArg;
+		double secondDouble = fourthArg;
+		
+		float firstFloat = 1.24;
+		
+		char firstChar = "A";
+		
+		String firstString = "test"';
+		
+		System.out.println(firstInt + secondInt);	
+		System.out.println(firstDouble + secondDouble);	
+		System.out.println(firstFloat * 4);
+		System.out.println(firstChar);
+		System.out.println(firstString);
+		System.out.println("At the end!");
+	}
+	
+}

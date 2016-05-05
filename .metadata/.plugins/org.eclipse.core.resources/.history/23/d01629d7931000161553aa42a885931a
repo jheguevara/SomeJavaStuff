@@ -1,0 +1,8 @@
+
+public class Score {
+	
+	int wins;
+	int losses;
+	int ties;
+
+}

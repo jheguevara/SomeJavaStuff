@@ -1,0 +1,48 @@
+package com.mcnz.shape;
+
+public class ShapeTester {
+
+	public static void main(String[] args) {
+		
+		Point origin = new Point();
+		origin.x = 0;
+		origin.y = 0;
+		System.out.println(origin.calcArea());
+		
+		Point centuryPoint = new Point();
+		centuryPoint.x = 100;
+		centuryPoint.y = 100;
+		
+		Point negativePoint = new Point();
+		negativePoint.x = -30;
+		negativePoint.y = -300;
+		
+		Line line1 = new Line();
+		line1.startPoint = origin;
+		line1.endPoint = centuryPoint;
+		
+		Line line2 = new Line();
+		line2.startPoint = centuryPoint;
+		line2.endPoint = negativePoint;
+		
+
+		Circle circle = new Circle(5);
+		//circle.radius = 5;
+		System.out.println(circle.calcArea());
+
+		Rectangle r1 = new Rectangle(10,4);
+		//r1.height = 10;
+		//r1.width = 4;
+		System.out.println(r1.calcArea());
+
+		Triangle t1 = new Triangle(20, 4);
+		//t1.height = 20;
+		//t1.width = 4;
+		System.out.println(t1.calcArea());
+
+		System.out.println(t1.calcArea() == r1.calcArea());
+
+		System.out.println();
+		System.out.println();
+	}
+}

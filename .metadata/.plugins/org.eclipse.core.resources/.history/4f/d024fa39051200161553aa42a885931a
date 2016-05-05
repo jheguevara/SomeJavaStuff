@@ -1,0 +1,8 @@
+package com.mcnz.shape;
+
+public class Triangle {
+
+	int height;
+	int width;
+	
+}

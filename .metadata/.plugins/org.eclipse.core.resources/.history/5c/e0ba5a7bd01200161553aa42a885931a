@@ -1,0 +1,8 @@
+package com.mcnz.moshape;
+
+public abstract class Shape {
+	
+	int height;
+	int width;
+
+}

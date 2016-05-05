@@ -1,0 +1,5 @@
+package com.mcnz.bank;
+
+public class Account {
+
+}

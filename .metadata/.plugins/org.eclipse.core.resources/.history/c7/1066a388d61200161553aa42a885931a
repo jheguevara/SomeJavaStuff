@@ -1,0 +1,13 @@
+package com.mcnz.moshape;
+
+public abstract class Shape  implements Surface{
+	
+	private int height;
+	private int width;
+	
+	
+	public int calcArea() {
+		return height * width;
+	}
+
+}

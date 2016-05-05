@@ -1,0 +1,8 @@
+package com.mcnz.rps;
+
+public class CharString {
+	
+	char c;
+	String s;
+
+}

@@ -1,0 +1,14 @@
+package com.mcnz.shape;
+
+public class ShapeTester {
+
+
+	public static void main(String[] args) {
+		
+		Circle circle = new Circle();
+		circle.radius = 5;
+		System.out.println(circle.calcArea());
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package com.mcnz.examples;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.mcnz.rps.Game;
+import com.mcnz.rps.GameSummary;
+
+public class TestArrayList
+{
+	public static void main(String[] args)
+	{
+		try
+		{
+			ArrayList<GameSummary> gameHistory = new ArrayList<GameSummary>();
+			
+			Scanner scanner = new Scanner(System.in);
+			
+			for(int i = 0; i < 2; i++)
+			{
+				System.out.println("\n**** Game " + i + "****\n")
+				System.out.println("Client chose >>>");
+				String client = scanner.nextLine();
+
+				System.out.println("Server chose >>>");
+				String server = scanner.nextLine();
+				
+				System.out.println("Result chose >>>");
+				String result = scanner.nextLine();
+
+				gameHistory.add(new GameSummary(client, server, result));						
+			}	
+			
+			for (GameSummary theSummary : gameHistory)
+				System.out.println(theSummary);
+		}
+		catch (Exception e)
+		{
+			e.printStackTrace();
+		}	
+	}
+}

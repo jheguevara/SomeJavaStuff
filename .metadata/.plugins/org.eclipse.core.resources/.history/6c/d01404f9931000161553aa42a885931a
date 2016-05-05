@@ -1,0 +1,20 @@
+
+public class Score {
+	
+	int wins;
+	int losses;
+	int ties;
+	
+	public void increaseWins() {
+		wins++;
+	}
+	
+	public void increaseLosses() {
+		wins++;
+	}
+	
+	public void increaseTies() {
+		wins++;
+	}
+
+}
