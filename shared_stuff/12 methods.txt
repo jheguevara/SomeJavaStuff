@@ -1,0 +1,12 @@
+
+All methods here will use the static keyword.
+
+Create a method that takes two Strings and prints out the longest one.
+
+Create a method that thakes two Strings and returns the longest one.
+
+Create a method that takes a String and a number. Return true if the String has more characters than the number.
+
+Create a method that takes three strings and a char. The method returns a number indicating how many of the Strings contain that character.
+
+Create a method that takes a String and a char. The method returns a number and a char.

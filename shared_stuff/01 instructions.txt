@@ -1,0 +1,19 @@
+
+
+Oh no! I dropped my laptop on the ground and the course code spilled out all over the floor!
+
+I threw all the lines of code back into a text file, but none of the lines are in order.
+
+Plus, a bunch of end brackets fell down a sewer grate, so those will have to be added in as well.
+
+Use editpad or notepad and rearrange the code so that it will run a little rock-paper-scissors application in your web browser.
+
+Here are some tips:
+
+1. Use each line of code once and only once.
+2. Do not write any of your own code.
+3. Group similar looking pieces of code together as you are starting out.
+4. Do not write any of your own code.
+5. Group HTML tag elements together and elements that look like code together
+6. Do not write any of your own code.
+7. When you think your done, save the file as rps.html and open it in a web browser and see if it works!!!

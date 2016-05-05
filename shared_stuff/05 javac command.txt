@@ -1,0 +1,4 @@
+C:\shared_stuff>"C:\Program Files\Java\jdk1.7.0_67\bin\javac" Game.java
+
+C:\shared_stuff>java Game
+

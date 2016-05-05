@@ -1,0 +1,27 @@
+
+
+if (input.equalsIgnoreCase("scissors"))
+
+result = "win";
+
+String prompt = "Will it be rock, paper or scissors?";
+
+public class Game
+
+result = "lose";
+
+import javax.swing.*;
+
+result = "tie";
+
+String input = JOptionPane.showInputDialog(prompt);
+
+if (input.equalsIgnoreCase("paper"))
+
+String result = "error";
+
+JOptionPane.showMessageDialog(null, result);
+
+public static void main(String args[])
+
+if (input.equalsIgnoreCase("rock"))

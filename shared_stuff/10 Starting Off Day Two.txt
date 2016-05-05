@@ -1,0 +1,74 @@
+
+
+/***   Day 1 Review   ***/
+
+How many primitive data types are there?
+
+8.
+
+byte short int long float double boolean char
+
+How many primitive types are typically used in an enterprise app?
+
+4 int/long double boolean char
+
+How do you declare a primitive type variable?
+
+int i = 10;
+boolean flag = true;
+double trouble = 12.34;
+
+long john;
+System.out.println(john); //error!
+john = 55;
+
+
+When is casting between types required?
+
+short a = 10;
+int x = 20;
+
+byte b = (byte)a;
+
+
+
+How do you compare the value of primitive types?
+
+What is the difference between a primitive and reference type?
+
+Name two reference types we used yesterday.
+
+Why can't a primitive type convert a String like "1234" into a number? Why is a Hip Hop class required?
+
+
+/***   Tautotical Rule of Java   ***/
+
+All reference types are instantiated using the new keyword except for the reference types that are not instantiated using the new keyword.
+
+Name a reference type that doesn't normally require the new keyword.
+
+/***   Tautological Rule of Java   ***/
+
+All of the code you write in Java goes within the confines of a class, except for the things that don't go within the confines of a class.
+
+What elements of code don't go within the definition of a class.
+
+/***   Tautological Rule of Java   ***/
+
+All lines of code in Java end in semi-colons except for the lines of code that don't end in semi-colons.
+
+When are semi-colons not required?
+
+/***   CODING FOR FOOD   ***/
+
+Could you perform the following tasks if your next meal depended upon it?
+
+- Start Eclipse
+- Create a Java class
+- Code a main method
+- Declare a few variables and print out their values
+- Set a breakpoint
+- Run code in Debug mode
+- Step over lines of code using views in the debug perspective
+
+

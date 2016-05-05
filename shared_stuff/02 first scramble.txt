@@ -1,0 +1,47 @@
+
+
+//server always chooses rock
+
+<div id="results"></div>
+
+result = "tie";
+
+<br/>
+
+<script>
+
+<a href="#" onclick="playRoshambo('paper')">paper</a>
+
+</body>
+
+Which one will it be?<br/>
+
+</script>
+
+result = "win";
+
+<html>
+
+result = "lose";
+
+<a href="#" onclick="playRoshambo('rock')">rock</a>
+
+if (clientGesture=='rock') {
+
+<head>
+
+if (clientGesture=='paper') {
+
+</html>
+
+playRoshambo = function(clientGesture){
+
+</head>
+
+document.getElementById('results').innerHTML = result;
+
+<body>
+
+<a href="#" onclick="playRoshambo('scissors')">scissors</a>
+
+if (clientGesture=='scissors') {
