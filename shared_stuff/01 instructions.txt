@@ -17,3 +17,12 @@ Here are some tips:
 5. Group HTML tag elements together and elements that look like code together
 6. Do not write any of your own code.
 7. When you think your done, save the file as rps.html and open it in a web browser and see if it works!!!
+
+There are actually two files that need to be put back together again:
+
+first scramble
+https://github.com/jheguevara/java101/blob/master/shared_stuff/02%20first%20scramble.txt
+
+second scramble
+https://github.com/jheguevara/java101/blob/master/shared_stuff/03%20second%20scramble.txt
+
